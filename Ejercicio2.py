@@ -25,15 +25,3 @@ pokemon1 = Pokemon("Pikachu", "Eléctrico", 35, 55, 40, 50, 50, 90)
 pokemon2 = Pokemon("Charizard", "Fuego", 78, 84, 78, 109, 85, 100)
 pokemon3 = Pokemon("Blastoise", "Agua", 79, 83, 100, 85, 105, 78)
 
-pokemons = [pokemon1, pokemon2, pokemon3]
-
-for pokemon in pokemons:
-    pokemon.clasificacion()
-    print()
-
-
-pokemons = [pokemon1, pokemon2, pokemon3]
-
-for pokemon in pokemons:
-    pokemon.clasificacion()
-    print()
