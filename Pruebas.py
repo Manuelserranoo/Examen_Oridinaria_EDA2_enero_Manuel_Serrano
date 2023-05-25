@@ -40,12 +40,4 @@ class PokeballTests(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    pokeball1 = Pokeball(50, "Ultra Ball", 1000, "2023-05-20")
-    pokeball2 = Pokeball(30, "Great Ball", 500, "2023-05-22")
-    pokeball3 = Pokeball(20, "Poke Ball", 200, "2023-05-21")
-    print(pokeball1)
-    print(pokeball2)
-    print(pokeball3)
-    print()
     unittest.main()
-
