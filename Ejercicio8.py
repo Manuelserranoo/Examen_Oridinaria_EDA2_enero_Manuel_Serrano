@@ -91,7 +91,7 @@ arbol_huffman = construir_arbol_huffman(tabla_frecuencias)
 tabla_codificacion = construir_tabla_codificacion(arbol_huffman)
 
 # Mensaje de ejemplo para comprimir
-mensaje = "ASH, DE TOMATE"
+mensaje = "HAZTE,CON,TODOS,POKEMON"
 
 # Comprimir el mensaje
 mensaje_comprimido = comprimir_mensaje(mensaje, tabla_codificacion)
